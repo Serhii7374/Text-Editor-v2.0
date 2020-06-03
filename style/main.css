@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+}
+
+.text {
+    padding: 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bold {font-weight: bold}
+.italic {font-style: italic}
+.underline {text-decoration: underline}
+.through {text-decoration: line-through}
+.alignCenter {text-align: center}
+.alignRight {text-align: right}
+.arial {font-family: Arial, sans-serif}
+.georgia {font-family: Georgia, serif}
+.impact {font-family: Impact, sans-serif}
+.tahoma {font-family: Tahoma, sans-serif}
+.times {font-family: 'Times New Roman', sans-serif}
+.varnada {font-family: Verdana, sans-serif}
+.size14 {font-size: 14px}
+.size18 {font-size: 18px}
+.size22 {font-size: 22px}
+.size26 {font-size: 26px}
+.size30 {font-size: 30px}
+
+.color_content {width: 525px}
+
+.modal-color {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+}
+
+.color {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.fonColor {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.fonColors, .fonImages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+}
+
+.fonImg {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fonImg:nth-of-type(1) {background-image: url("../img/1.jpg")}
+.fonImg:nth-of-type(2) {background-image: url("../img/2.jpg")}
+.fonImg:nth-of-type(3) {background-image: url("../img/3.jpg")}
+.fonImg:nth-of-type(4) {background-image: url("../img/4.jpg")}
+.fonImg:nth-of-type(5) {background-image: url("../img/5.jpg")}
+.fonImg:nth-of-type(6) {background-image: url("../img/6.jpg")}
+
+.file {
+    display: flex;
+    width: 500px;
+}
+
+.custom-file {width: 100%}
+
+form[name="login"] {
+    width: 490px;
+    position: relative;
+}
+
+form[name="login"] input {
+    height: 40px;
+    margin: 10px 0;
+}
+
+.invalid {box-shadow: 0 0 5px 1px red}
+
+.none, .wrong {
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    top: 112px;
+    left: 5px;
+}
+
+.hidden {display: none}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.modal-table {
+    display: flex;
+    width: 650px;
+}
+
+form[name='table'] {
+    display: flex;
+    justify-content: space-between;
+    width: 615px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    position: relative;
+}
+
+.borderChoose {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.borderChoose div {width: 146px}
+
+.borderChoose select {width: 100%}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    padding-left: 8px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid silver;
+    height: 30px;
+}
+
+.count_TR {height: 100px}
+
+.error {
+    position: absolute;
+    color: red;
+    top: 273px;
+    font-size: 14px;
+    left: 5px;
+}
+
+.typeOl, .typeUl {width: 100%}
+
+.listBtn {
+    display: flex;
+    margin-top: 40px;
+}
+
+.listBtn button {width: 100%}
+
+.listBtn button:nth-of-type(1) {margin-right: 5px}
+
+.listBtn button:nth-of-type(2) {margin-left: 5px}
+
+.countOl, .countUl {margin-bottom: 30px}
+
+.countOl, .countUl, .typeOl, .typeUl {height: 30px}
+
+form[name="ol"], form[name="ul"] {position: relative}
+
+.error2, .error3 {
+    position: absolute;
+    color: red;
+    top: 177px;
+    font-size: 14px;
+    left: 5px;
+}
+
+.out {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.outBtn {
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
